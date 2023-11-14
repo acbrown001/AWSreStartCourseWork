@@ -1,4 +1,4 @@
-# AWS reStart Homewrok
+# AWS reStart Homework
 Homework for AWS reStart
 
 **Week 2**
@@ -26,6 +26,10 @@ https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%205.ipynb
 https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%206.ipynb
 
 **Week 3**
+
+Data Classes
+
+
 
 
 
