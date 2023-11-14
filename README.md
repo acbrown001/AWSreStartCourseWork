@@ -29,6 +29,8 @@ https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%206.ipynb
 
 Data Classes
 
+https://github.com/acbrown001/AWSreStartHW/tree/main/LearningDataClasspt3
+
 
 
 
