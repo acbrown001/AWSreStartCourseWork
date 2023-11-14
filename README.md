@@ -5,8 +5,6 @@ Homework for AWS reStart
 
 Tic-Tac-Toe Board
 
-![image](https://github.com/acbrown001/AWSreStartHW/assets/104618343/9f2ba610-a8bc-4204-8ce4-8734c9467fe1)
-
 [https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%201.ipynb
 ](https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%201.ipynb)
 
