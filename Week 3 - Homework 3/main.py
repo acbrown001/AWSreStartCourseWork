@@ -18,8 +18,7 @@ class BookStore(BaseModel):
 
 my_inventory_items_dict: Dict[str, BookItem] = {
     "1984": BookItem(name="1984", author=Author(name="George Orwell"), year_published=1949),
-    "Brave New World": BookItem(name="Brave New World", author=Author(name="Aldous Huxley"), year_published=1932)
-}
+    "Brave New World": BookItem(name="Brave New World", author=Author(name="Aldous Huxley"), year_published=1932)}
 
 @app.get("/")
 def read_root():
@@ -28,23 +27,14 @@ def read_root():
 # Update
 @app.put('/bookstore/{book_name}')
 def update_book(book_name: str, request_data: BookItem):
-    if book_name in my_inventory_items_dict:
-        updated_book = my_inventory_items_dict[book_name].copy(update=request_data.dict(exclude_unset=True))
-        my_inventory_items_dict[book_name] = updated_book
-        return updated_book.dict()
-    else:
-        return {"error": "Book not found"}, 404
+
 
 @app.get('/bookstore/{book_name}')
 def get_book(book_name: str):
-    if book_name in my_inventory_items_dict:
-        return my_inventory_items_dict[book_name].dict()
-    else:
-        return {"error": "Book not found"}, 404
+
 
 @app.get('/bookstore')
 def get_all_books():
-    books = [book.dict() for book in my_inventory_items_dict.values()]
-    return books, 200
+
 
 
