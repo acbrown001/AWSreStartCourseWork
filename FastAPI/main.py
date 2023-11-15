@@ -20,9 +20,6 @@ class Item(BaseModel):
 def read_item(item_id: int, item: Item, q: Union[str, None] = None): #Default value for q is None
    return {"item_id": item_id, "q": q, "item": item}
 
-#@app.get("/items/{item_id}")
-#def read_item(item_id: int, q: Union[str, None] = None): #Default value for q is None
-#    return {"item_id": item_id, "q": q}
 
 @app.put("/items/{item_id}")
 def update_item(item_id: int, item: Item):

@@ -4,4 +4,4 @@ from dto.BookItem import BookItem
 
 class BookStore(BaseModel):
     name: str
-    book_shelve: List[BookItem]
+    book_shelf: List[BookItem]
