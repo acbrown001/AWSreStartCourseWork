@@ -9,26 +9,27 @@ https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Homework%201%20-%20
 
 Caesar Script
 
-https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%202%20Encrypt.py
-https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%202%20Decrypt.py
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Homework%202%20-%20Caesar%20Script
 
 
 AES & RSA Encryption
 
-https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%203.ipynb
-https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%204.ipynb
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Homework%203%20%26%204%20-%20AES%20%26%20RSA%20Encryption
 
 
 Object Oriented Programming
 
-https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%205.ipynb
-https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%206.ipynb
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Homework%205%20%26%206%20-%20Object%20Oriented%20Programming
 
 **Week 3**
 
 Data Classes
 
-https://github.com/acbrown001/AWSreStartHW/tree/main/LearningDataClasspt3
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week%203%20-%20DataClass%20-%20Homework%201%20%26%202
+
+FastAPI
+
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week%203%20-%20Homework%203%20pt1
 
 
 
