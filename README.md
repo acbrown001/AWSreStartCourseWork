@@ -5,8 +5,7 @@ Homework for AWS reStart
 
 Tic-Tac-Toe Board
 
-[https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%201.ipynb
-](https://github.com/acbrown001/AWSreStartHW/blob/main/Homework%201.ipynb)
+https://github.com/acbrown001/AWSreStartCourseWork/tree/b44f3193a437090cc4eafc6026396f3c21b1729c/Homework%201%20-%20TicTacToe
 
 Caesar Script
 
