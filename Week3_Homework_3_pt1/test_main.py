@@ -23,3 +23,5 @@ def test_put_api():
     })
     print(response.json())
     assert response.status_code == 200
+
+
