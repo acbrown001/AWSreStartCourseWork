@@ -25,11 +25,16 @@ https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Homework%205%20%26%
 
 Data Classes
 
-https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week%203%20-%20DataClass%20-%20Homework%201%20%26%202
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week3_DataClass_Homework_1%262
 
 FastAPI
 
-https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week%203%20-%20Homework%203%20pt1
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week3_Homework_3_pt1
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week3_Homework_3_pt2
+
+Testing
+
+https://github.com/acbrown001/AWSreStartCourseWork/tree/main/Week3_Homework_4
 
 
 
