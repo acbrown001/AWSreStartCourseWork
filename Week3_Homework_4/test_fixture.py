@@ -85,6 +85,7 @@ def test_addition(a, b, expected):
     assert a + b == expected
 
 
+"""
 @pytest.mark.parametrize(
     "payload, http_code",
     [
@@ -111,3 +112,17 @@ def test_addition(a, b, expected):
 )
 def test_many_put_apis(client, payload, http_code):
     assert client.put("/items/Tests/", json=payload).status_code == http_code
+"""
+
+
+# parametrize with fixture
+@pytest.mark.parametrize(
+    "payload, http_code",
+    [
+        ("good_payload", 200),
+        ("bad_payload", 422),
+    ],
+)
+def test_many_put_apis_request(payload, http_code, client, request):
+    payload_request = request.getfixturevalue(payload)
+    assert client.put("/items/Tests/", json=payload_request).status_code == http_code
