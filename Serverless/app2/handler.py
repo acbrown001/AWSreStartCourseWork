@@ -3,7 +3,7 @@ import json
 
 def create_thumbnail(event, context):
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "message": "I'm creating a thumbnail for your image",
         "input": event
     }
 
@@ -11,7 +11,8 @@ def create_thumbnail(event, context):
         "statusCode": 200,
         "body": json.dumps(body)
     }
-
+    print (response)
+    
     return response
 
     # Use this code if you don't use the http event with the LAMBDA-PROXY

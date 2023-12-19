@@ -23,6 +23,8 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: python3.9
+#  lambdaHashingVersion: 20201221
+  region: us-east-1
 
 # you can overwrite defaults here
 #  stage: dev
@@ -64,7 +66,7 @@ functions:
     name: create-thumbnail-function
     events:
       - s3:
-          bucket: photos
+          bucket: cb-test-photos
           event: s3:ObjectCreated:*
           rules:
             - prefix: uploads/
