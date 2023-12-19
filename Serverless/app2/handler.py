@@ -2,17 +2,12 @@ import json
 
 
 def create_thumbnail(event, context):
-    body = {
-        "message": "I'm creating a thumbnail for your image",
-        "input": event
-    }
+    body = {"message": "I'm creating the thumbnail", "input": event}
 
-    response = {
-        "statusCode": 200,
-        "body": json.dumps(body)
-    }
-    print (response)
-    
+    response = {"statusCode": 200, "body": json.dumps(body)}
+
+    print(response)
+
     return response
 
     # Use this code if you don't use the http event with the LAMBDA-PROXY
